@@ -8,7 +8,9 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
-
+/*данный тест, проверяет на наличие в футере сайта двух ссылок
+* открывает по ссылке ведущей в вк, и проверяет что она действительно открылась
+*/
 public class Untitled {
     private WebDriver driver;
     private String baseUrl;
